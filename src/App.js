@@ -1,21 +1,18 @@
 import React from "react";
-import "./App.css";
-
-const recipes = [
-  {
-    author: "Jim",
-    name: "Chicken Curry",
-    description: "Delicious spicy chicken curry",
-  },
-  {
-    author: "Aravind",
-    name: "Hamburger",
-    description: "Juicy burger with toppings and a soft bun",
-  },
-];
-
+import "bootstrap/dist/css/bootstrap.min.css";
+import MasterDetails from "./components/MasterDetail";
+import RecipeList from "./components/RecipeList";
+import { useState } from "react";
+import { Button } from "react-bootstrap";
 function App() {
-  return <div className="App"></div>;
+  const [toggle, setState] = useState(true);
+
+  return (
+    <div className="App d-grid gap-3">
+      <Button onClick={() => setState(!toggle)}>Switch Between UI Types</Button>
+      {toggle ? <RecipeList /> : <MasterDetails />}
+    </div>
+  );
 }
 
 export default App;
