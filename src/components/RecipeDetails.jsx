@@ -5,11 +5,25 @@ const RecipeDetails = ({ recipe }) => {
     return <div>Loading...</div>;
   }
 
+  const styles = {
+    fontSize: "20px",
+    fontFamily: "san-serif",
+  };
+
   return (
     <div>
       {recipe && (
         <>
-          <ul>
+          <ul style={styles}>
+            <img
+              src={recipe.image}
+              alt=""
+              style={{
+                height: "200px",
+                width: "200px",
+                border: "5px solid black",
+              }}
+            />
             <li>
               <strong>Recipe Id:</strong> {recipe.id}
             </li>

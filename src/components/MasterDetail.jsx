@@ -18,8 +18,6 @@ const MasterDetails = () => {
           <tr>
             <th>Id</th>
             <th>Recipe Name</th>
-            <th>Chef Name</th>
-            <th>Speciality</th>
             <th>Recipe Details</th>
           </tr>
         </thead>
@@ -32,11 +30,14 @@ const MasterDetails = () => {
                   {item.recipe}
                 </Button>
               </td>
-              <td>{item.name}</td>
-              <td>{item.Speciality}</td>
               <td>
                 {showMoreProp[item.id] && (
                   <ul>
+                    <img
+                      src={item.image}
+                      alt=""
+                      style={{ width: "200px", height: "200px" }}
+                    />
                     <li>
                       <strong>Recipe Id:</strong> {item.id}
                     </li>

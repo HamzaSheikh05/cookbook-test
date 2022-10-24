@@ -17,7 +17,7 @@ const RecipeList = () => {
                 <Button
                   key={r.id}
                   onClick={() => setSelectedRecipe(r)}
-                  style={{ fontWeight: "bold" }}
+                  style={{ fontWeight: "bold", fontFamily: "sans-serif" }}
                 >
                   {r.recipe}
                 </Button>
