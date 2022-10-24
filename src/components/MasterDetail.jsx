@@ -17,8 +17,8 @@ const MasterDetails = () => {
         <thead>
           <tr>
             <th>Id</th>
-            <th>Name</th>
-            <th>Age</th>
+            <th>Recipe Name</th>
+            <th>Chef Name</th>
             <th>Speciality</th>
             <th>Recipe Details</th>
           </tr>
@@ -29,12 +29,35 @@ const MasterDetails = () => {
               <td>{item.id}</td>
               <td>
                 <Button onClick={() => handleMorePropClick(item.id)}>
-                  {item.name}
+                  {item.recipe}
                 </Button>
               </td>
-              <td>{item.Age}</td>
+              <td>{item.name}</td>
               <td>{item.Speciality}</td>
-              <td>{showMoreProp[item.id] && item.recipe}</td>
+              <td>
+                {showMoreProp[item.id] && (
+                  <ul>
+                    <li>
+                      <strong>Recipe Id:</strong> {item.id}
+                    </li>
+                    <li>
+                      <strong>Chef Name:</strong> {item.name}
+                    </li>
+                    <li>
+                      <strong>Chef Age:</strong> {item.Age}
+                    </li>
+                    <li>
+                      <strong>Chef Speciality:</strong> {item.Speciality}
+                    </li>
+                    <li>
+                      <strong>Recipe Name:</strong> {item.recipe}
+                    </li>
+                    <li>
+                      <strong>Recipe Details:</strong> {item.details}
+                    </li>
+                  </ul>
+                )}
+              </td>
             </tr>
           ))}
         </tbody>

@@ -14,8 +14,12 @@ const RecipeList = () => {
           <Row>
             <Stack gap={2} className="col-md-5 mx-auto">
               {RecipeData.map((r) => (
-                <Button key={r.id} onClick={() => setSelectedRecipe(r)}>
-                  {r.name}
+                <Button
+                  key={r.id}
+                  onClick={() => setSelectedRecipe(r)}
+                  style={{ fontWeight: "bold" }}
+                >
+                  {r.recipe}
                 </Button>
               ))}
             </Stack>

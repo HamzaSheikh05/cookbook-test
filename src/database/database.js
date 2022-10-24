@@ -1,47 +1,52 @@
 const RecipeData = [
   {
     id: 1,
-    name: "Clown",
+    name: "Jack",
     Age: 20,
     Speciality: "Italian",
-    recipe:
-      "1.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam cumque ut magnam consequatur aliquam, est velit dolore inventore excepturi assumenda vel nostrum aut ipsam repellat facere sed numquam earum. Repudiandae.",
+    recipe: "Italian Pasta",
+    details:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam cumque ut magnam consequatur aliquam, est velit dolore inventore excepturi assumenda vel nostrum aut ipsam repellat facere sed numquam earum. Repudiandae.",
   },
 
   {
     id: 2,
-    name: "Joker",
+    name: "Jill",
     Age: 22,
     Speciality: "Continental",
-    recipe:
-      "2.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam cumque ut magnam consequatur aliquam, est velit dolore inventore excepturi assumenda vel nostrum aut ipsam repellat facere sed numquam earum. Repudiandae.",
+    recipe: "Crispy Calamari Rings",
+    details:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam cumque ut magnam consequatur aliquam, est velit dolore inventore excepturi assumenda vel nostrum aut ipsam repellat facere sed numquam earum. Repudiandae.",
   },
 
   {
     id: 3,
-    name: "IT",
+    name: "Peter",
     Age: 28,
     Speciality: "Italian and Indian",
-    recipe:
-      "3.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam cumque ut magnam consequatur aliquam, est velit dolore inventore excepturi assumenda vel nostrum aut ipsam repellat facere sed numquam earum. Repudiandae.",
+    recipe: "Chicken Biryani",
+    details:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam cumque ut magnam consequatur aliquam, est velit dolore inventore excepturi assumenda vel nostrum aut ipsam repellat facere sed numquam earum. Repudiandae.",
   },
 
   {
     id: 4,
-    name: "Batatas",
+    name: "Kim Ha",
     Age: 36,
     Speciality: "Chinese",
-    recipe:
-      "4.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam cumque ut magnam consequatur aliquam, est velit dolore inventore excepturi assumenda vel nostrum aut ipsam repellat facere sed numquam earum. Repudiandae.",
+    recipe: "Sweet and Sour Chicken",
+    details:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam cumque ut magnam consequatur aliquam, est velit dolore inventore excepturi assumenda vel nostrum aut ipsam repellat facere sed numquam earum. Repudiandae.",
   },
 
   {
     id: 5,
-    name: "Aunty Gormint",
+    name: "Hayat",
     Age: 55,
     Speciality: "Pakistani",
-    recipe:
-      "5.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam cumque ut magnam consequatur aliquam, est velit dolore inventore excepturi assumenda vel nostrum aut ipsam repellat facere sed numquam earum. Repudiandae.",
+    recipe: "Haleem",
+    details:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam cumque ut magnam consequatur aliquam, est velit dolore inventore excepturi assumenda vel nostrum aut ipsam repellat facere sed numquam earum. Repudiandae.",
   },
 
   {
@@ -49,8 +54,9 @@ const RecipeData = [
     name: "Teriyaki",
     Age: 35,
     Speciality: "Japanese",
-    recipe:
-      "6.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam cumque ut magnam consequatur aliquam, est velit dolore inventore excepturi assumenda vel nostrum aut ipsam repellat facere sed numquam earum. Repudiandae.",
+    recipe: "Japanese CheeseCake",
+    details:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam cumque ut magnam consequatur aliquam, est velit dolore inventore excepturi assumenda vel nostrum aut ipsam repellat facere sed numquam earum. Repudiandae.",
   },
 ];
 

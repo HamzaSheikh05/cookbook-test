@@ -10,8 +10,24 @@ const RecipeDetails = ({ recipe }) => {
       {recipe && (
         <>
           <ul>
-            <li>Recipe Name: {recipe.name}</li>
-            <li>Recipe: {recipe.recipe}</li>
+            <li>
+              <strong>Recipe Id:</strong> {recipe.id}
+            </li>
+            <li>
+              <strong>Chef Name:</strong> {recipe.name}
+            </li>
+            <li>
+              <strong>Chef Age:</strong> {recipe.Age}
+            </li>
+            <li>
+              <strong>Chef Speciality:</strong> {recipe.Speciality}
+            </li>
+            <li>
+              <strong>Recipe Name:</strong> {recipe.recipe}
+            </li>
+            <li>
+              <strong>Recipe Details:</strong> {recipe.details}
+            </li>
           </ul>
         </>
       )}
